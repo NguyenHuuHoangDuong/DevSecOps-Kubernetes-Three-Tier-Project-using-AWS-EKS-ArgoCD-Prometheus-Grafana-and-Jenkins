@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/NguyenHuuHoangDuong/-DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/NguyenHuuHoangDuong/DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins.git'
             }
         }
         stage('Sonarqube Analysis') {
@@ -83,7 +83,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/NguyenHuuHoangDuong/-DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/NguyenHuuHoangDuong/DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins.git'
             }
         }
         stage('Update Deployment file') {
