@@ -1,0 +1,15 @@
+# Ignore Terraform files
+*.tf
+*.tfvars
+*.terraform
+*.tfstate
+*.terraformcache
+*.lock
+*.log
+
+# Ignore Docker files
+.dockerignore
+
+#Ignore aws credential 
+.aws
+
