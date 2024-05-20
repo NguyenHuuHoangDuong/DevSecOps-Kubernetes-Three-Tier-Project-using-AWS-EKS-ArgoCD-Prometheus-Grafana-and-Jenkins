@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: backend.abiolamajek.net
+    - host: backend.davinc.click
       http:
         paths:
           - path: /api
