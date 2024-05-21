@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: davinc.click
+    - host: davinciem.click
       http:
         paths:
           - path: /api
